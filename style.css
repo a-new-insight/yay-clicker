@@ -1,14 +1,16 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.game {
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
     "GRAD" 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
 }
 #yay {
   transition: transform 0.2s linear;
@@ -20,4 +22,7 @@ body {
 #yay:active{
   transform: scale(0.8);
   transition: transform 0.2s linear;
+}
+.news {
+  font-family: Courier New;
 }
