@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
-    <title>Yay clicker v1.4</title>
+    <title>Yay clicker v1.5</title>
   </head>
   <body>
     <div class="news">
@@ -32,9 +32,18 @@
         v1.32: bugfixed news ticker again lol
         <br>
         <strong>v1.4: </strong>added achievements
+        <br>
+        <strong>v1.5: </strong>added upgrades
       </p>
       <button onclick="document.getElementById('updates').close()">Close</button>
     </dialog>
+    <div class="upgrades">
+      <button onclick="buy(yippee)">Yippee - 15 yays - 0.1 yays per second</button>
+      <button onclick="buy(yahoo)">Yahoo - 100 yays - 1 yay per second</button>
+      <button onclick="buy(woo)">Woo - 1500 yays - 10 yays per second</button>
+      <button onclick="buy(wahoo)">Wahoo - 20000 yays - +5% clickpower</button>
+      <button onclick="buy(yippeekayay)">Yippee-Ka-Yay - 100,000 yays - 100 yays per second</button>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
