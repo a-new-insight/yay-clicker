@@ -14,6 +14,11 @@ body {
 }
 #yay {
   transition: transform 0.2s linear;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  pointer-events: auto;
 }
 #yay:hover{
   transform: scale(1.3);
