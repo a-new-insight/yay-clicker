@@ -1,6 +1,7 @@
 let score = Number(localStorage.getItem('score')) || 0;
 const scoreDisplay = document.getElementById('score-display');
 const news = document.getElementById('news-display');
+updateNews();
 scoreDisplay.innerHTML = `${score} yays`;
 function incrementScore() {
   score += 1;
