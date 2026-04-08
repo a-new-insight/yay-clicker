@@ -1,0 +1,23 @@
+body {
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+#yay {
+  transition: transform 0.2s linear;
+}
+#yay:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s linear;
+}
+#yay:active{
+  transform: scale(0.8);
+  transition: transform 0.2s linear;
+}
