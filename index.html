@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
-    <title>Yay clicker v1.5</title>
+    <title>Yay Clicker</title>
   </head>
   <body>
     <div class="news">
@@ -17,26 +17,6 @@
       <h1 id="yay" onclick="incrementScore()">Yay!</h1>
       <p id="score-display">0 yays</p>
     </div>
-    <button id="updatesButton" onclick="document.getElementById('updates').showModal()">See updates</button>
-    <dialog id="updates">
-      <p><strong>v1.0: </strong>The original game is made with only the score and the yay. Kinda starting to regret it. Oh well (orteil quote)
-        <br>
-        <strong>v1.1: </strong>The news ticker (inspired by Cookie Clicker) is added. 
-        <br>
-        <strong>v1.2: </strong>The updates dialog is added (ur reading it right now)
-        <br>
-        <strong>v1.3: </strong>The Yay element is made unclickable using a few lines of CSS.
-        <br>
-        v1.31: bugfixed news ticker, made title display version
-        <br>
-        v1.32: bugfixed news ticker again lol
-        <br>
-        <strong>v1.4: </strong>added achievements
-        <br>
-        <strong>v1.5: </strong>added upgrades
-      </p>
-      <button onclick="document.getElementById('updates').close()">Close</button>
-    </dialog>
     <div class="upgrades">
       <p>UPGRADES DONT WORK I WILL FIX IT SOON</p>
       <button onclick="buy(yippee)">Yippee - 15 yays - 0.1 yays per second</button>
